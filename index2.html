@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Position Div</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header {
+            border: 2px solid green;
+        }
+        .left {
+            border: 2px solid green;
+            display: inline-block;
+        }
+        .mid {
+            border: 2px solid green;
+            display: block;
+            width: 50%;
+            margin: 0px auto;
+        }
+        .right {
+            border: 2px solid green;
+            display: inline-block;
+            position: absolute;
+            top: 12px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">I am left</div>
+        <div class="mid">I am mid</div>
+        <div class="right">I am right</div>
+    </header>
+</body>
+</html>
